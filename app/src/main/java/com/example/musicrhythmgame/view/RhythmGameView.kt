@@ -31,8 +31,10 @@ import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin
 import androidx.core.graphics.withRotation
+import com.example.musicrhythmgame.MainViewModel
 
 class RhythmGameView @JvmOverloads constructor(
+    var viewModel: MainViewModel,
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
@@ -253,7 +255,10 @@ class RhythmGameView @JvmOverloads constructor(
         // Update timing indicators
         updateTimingIndicators()
 
-        invalidate()
+        if (viewModel.isPause.value == false) {
+            Log.d("pause", "onDraw: fix pause ${viewModel.isPause.value}")
+            invalidate()
+        }
     }
 
     private fun drawBubbleNote(canvas: Canvas, rect: RectF, state: PadState, baseColor: Int) {
@@ -1082,6 +1087,8 @@ class RhythmGameView @JvmOverloads constructor(
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
+        if (viewModel.isPause.value == true) return false
+
         when (event.actionMasked) {
             MotionEvent.ACTION_DOWN, MotionEvent.ACTION_POINTER_DOWN -> {
                 val pointerIndex = event.actionIndex
@@ -1139,7 +1146,7 @@ class RhythmGameView @JvmOverloads constructor(
             }
         }
 
-        invalidate()
+//        invalidate()
     }
 
     private fun lightenColor(color: Int, factor: Float): Int {

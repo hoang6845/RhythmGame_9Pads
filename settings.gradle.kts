@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Music Rhythm Game"
+rootProject.name = "Music Rhythm Game_9Pads"
 include(":app")
  

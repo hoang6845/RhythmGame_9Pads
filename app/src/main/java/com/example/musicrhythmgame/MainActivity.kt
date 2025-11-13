@@ -4,6 +4,7 @@ import android.graphics.PointF
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -29,6 +30,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var comboText: TextView
 
     private var gameLoop: Runnable? = null
+    private var renderLoop: Runnable? = null
+
     private var isGameRunning = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-        gameView = RhythmGameView(this)
+        gameView = RhythmGameView(viewModel, this)
         feedbackOverlay = FeedbackOverlay(viewModel, this)
         binding.gameView.addView(gameView)
         binding.gameView.addView(feedbackOverlay)
@@ -76,6 +79,14 @@ class MainActivity : AppCompatActivity() {
         viewModel.bgPerfect.observe(this){value ->
             if (!value) gameView.resetBackground()
         }
+
+        binding.btnBack.setOnClickListener {
+            if (isGameRunning) {
+                pauseGame()
+            } else {
+                resumeGame()
+            }
+        }
     }
 
     private fun initializeGame() {
@@ -85,6 +96,17 @@ class MainActivity : AppCompatActivity() {
         audioClock = AudioSyncClock(musicPlayer)
         noteSpawner = NoteSpawner(audioClock)
         inputJudge = InputJudge(audioClock, noteSpawner, soundEffects)
+
+        musicPlayer.setPlaybackStateListener { state ->
+            when (state){
+                true -> {
+
+                }
+                false -> {
+                    Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
 
         // 2. Load sound effects
         // soundEffects.loadSound(SoundEffectPool.SoundType.PERFECT_HIT, R.raw.perfect)
@@ -169,7 +191,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun startGame() {
         isGameRunning = true
-
+        viewModel.togglePause(false)
         // Reset components
         audioClock.reset()
         noteSpawner.reset()
@@ -182,6 +204,7 @@ class MainActivity : AppCompatActivity() {
 
         // Start game loop
         startGameLoop()
+        startRenderLoop()
     }
 
     private fun startGameLoop() {
@@ -208,18 +231,34 @@ class MainActivity : AppCompatActivity() {
         gameView.post(gameLoop!!)
     }
 
+    private fun startRenderLoop() {
+        renderLoop = object : Runnable {
+            override fun run() {
+                gameView.invalidate()
+                feedbackOverlay.invalidate()
+                gameView.postDelayed(this, 16)
+            }
+        }
+        gameView.post(renderLoop!!)
+    }
+
     private fun pauseGame() {
         isGameRunning = false
+        viewModel.togglePause(true)
         musicPlayer.pause()
-        audioClock.pause()
+//        audioClock.pause()
         gameLoop?.let { gameView.removeCallbacks(it) }
+        renderLoop?.let { gameView.removeCallbacks(it) }
     }
 
     private fun resumeGame() {
         isGameRunning = true
+        viewModel.togglePause(false)
         musicPlayer.play()
-        audioClock.resume()
+//        audioClock.resume()
         startGameLoop()
+        startRenderLoop()
+
     }
 
     override fun onPause() {
@@ -238,6 +277,7 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         isGameRunning = false
         gameLoop?.let { gameView.removeCallbacks(it) }
+        renderLoop?.let { gameView.removeCallbacks(it) }
         musicPlayer.release()
         soundEffects.release()
     }
