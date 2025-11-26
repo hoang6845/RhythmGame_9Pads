@@ -1,284 +1,358 @@
 package com.example.musicrhythmgame
 
-import android.graphics.PointF
 import android.os.Bundle
-import android.util.Log
-import android.widget.TextView
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
+import android.view.ViewGroup
+import android.widget.Button
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
-import com.example.musicrhythmgame.databinding.ActivityMainBinding
-import com.example.musicrhythmgame.view.FeedbackOverlay
-import com.example.musicrhythmgame.view.RhythmGameView
+import com.example.musicrhythmgame.view.DrumPadsView
+import com.example.musicrhythmgame.view.RecordedNote
+
+//class MainActivity : AppCompatActivity() {
+//    private lateinit var binding: ActivityMainBinding
+//    private lateinit var viewModel: MainViewModel
+//
+//    private lateinit var musicPlayer: MusicPlayer
+//    private lateinit var soundEffects: SoundEffectPool
+//    private lateinit var audioClock: AudioSyncClock
+//    private lateinit var noteSpawner: NoteSpawner
+//    private lateinit var inputJudge: InputJudge
+//    private lateinit var gameView: RhythmGameView
+//    private lateinit var feedbackOverlay: FeedbackOverlay
+//
+//    private lateinit var scoreText: TextView
+//    private lateinit var comboText: TextView
+//
+//    private var gameLoop: Runnable? = null
+//    private var renderLoop: Runnable? = null
+//
+//    private var isGameRunning = false
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        enableEdgeToEdge()
+//        binding = ActivityMainBinding.inflate(layoutInflater)
+//        setContentView(binding.root)
+//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+//            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+//            insets
+//        }
+//        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+//
+//        gameView = RhythmGameView(viewModel, this)
+//        feedbackOverlay = FeedbackOverlay(viewModel, this)
+//        binding.gameView.addView(gameView)
+//        binding.gameView.addView(feedbackOverlay)
+//
+//        scoreText = TextView(this).apply {
+//            textSize = 24f
+//            setTextColor(android.graphics.Color.WHITE)
+//            x = 50f
+//            y = 50f
+//        }
+//
+//        comboText = TextView(this).apply {
+//            textSize = 20f
+//            setTextColor(android.graphics.Color.WHITE)
+//            x = 50f
+//            y = 120f
+//        }
+//
+//        binding.gameView.addView(scoreText)
+//        binding.gameView.addView(comboText)
+//
+//        // Initialize game components
+//        initializeGame()
+//
+//        // Start game
+//        startGame()
+//
+//        viewModel.setPerfect { x, y, color1, color2, color3 ->
+//            gameView.handlePerfect(x, y, color1, color2, color3)
+//        }
+//        viewModel.bgPerfect.observe(this){value ->
+//            if (!value) gameView.resetBackground()
+//        }
+//
+//        binding.btnBack.setOnClickListener {
+//            if (isGameRunning) {
+//                pauseGame()
+//            } else {
+//                resumeGame()
+//            }
+//        }
+//    }
+//
+//    private fun initializeGame() {
+//        // 1. Initialize core components
+//        musicPlayer = MusicPlayer(this)
+//        soundEffects = SoundEffectPool(this)
+//        audioClock = AudioSyncClock(musicPlayer)
+//        noteSpawner = NoteSpawner(audioClock)
+//        inputJudge = InputJudge(audioClock, noteSpawner, soundEffects)
+//
+//        musicPlayer.setPlaybackStateListener { state ->
+//            when (state){
+//                true -> {
+//
+//                }
+//                false -> {
+//                    Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show()
+//                }
+//            }
+//        }
+//
+//        // 2. Load sound effects
+//        // soundEffects.loadSound(SoundEffectPool.SoundType.PERFECT_HIT, R.raw.perfect)
+//        // soundEffects.loadSound(SoundEffectPool.SoundType.GOOD_HIT, R.raw.good)
+//        // soundEffects.loadSound(SoundEffectPool.SoundType.MISS, R.raw.miss)
+//
+//        // 3. Load notes từ JSON
+//        val json = assets.open("gamedata.json").bufferedReader().use { it.readText() }
+//        noteSpawner.loadNotesFromJson(json)
+//        gameView.setNoteSpawner(noteSpawner)
+//        gameView.setAudioClock(audioClock)
+//
+//        // 4. Load music
+//        musicPlayer.loadMusic("android.resource://${packageName}/${R.raw.faded_song}")
+//
+//        // 5. Setup InputJudge callbacks
+//        setupInputJudgeCallbacks()
+//
+//        // 6. Setup GameView callbacks
+//        setupGameViewCallbacks()
+//    }
+//
+//    private fun setupInputJudgeCallbacks() {
+//        // Callback khi có judgment (Perfect/Good/Miss)
+//        inputJudge.onJudge = { feedback ->
+//            val padPosition = getPadPosition(feedback.padId)
+//
+//            feedbackOverlay.showFeedback(feedback.result, padPosition)
+//        }
+//
+//        inputJudge.onComboChange = { combo ->
+//            runOnUiThread {
+//                comboText.text = "Combo: $combo"
+//                feedbackOverlay.updateCombo(combo)
+//            }
+//        }
+//
+//        inputJudge.onScoreChange = { score ->
+//            runOnUiThread {
+//                scoreText.text = "Score: $score"
+//            }
+//        }
+//    }
+//
+//    private fun setupGameViewCallbacks() {
+//        // Khi pad được nhấn
+//        gameView.onPadPressed = { padId ->
+//            val result = inputJudge.onPadPressed(
+//                padId,
+//                { gameView.triggerHitEffect(padId) },
+//                { gameView.triggerMissEffect(padId) })
+//            // InputJudge sẽ tự động gọi callback onJudge
+//            // callback đó sẽ gọi feedbackOverlay.showFeedback()
+//        }
+//
+//        // Khi pad được nhả (cho hold notes)
+//        gameView.onPadReleased = { padId ->
+//            inputJudge.onPadReleased(
+//                padId, { gameView.triggerMissEffect(padId) },
+//                { gameView.completeHoldNote(padId) })
+//        }
+//    }
+//
+//    private fun getPadPosition(padId: Int): PointF {
+//        // Tính toán vị trí của pad dựa trên ID (1-9)
+//        val screenWidth = gameView.width
+//        val screenHeight = gameView.height
+//
+//        val row = (padId - 1) / 3
+//        val col = (padId - 1) % 3
+//
+//        val gridSize = kotlin.math.min(screenWidth, screenHeight) * 0.8f
+//        val padSize = (gridSize - 16f * 4) / 3
+//        val startX = (screenWidth - gridSize) / 2
+//        val startY = (screenHeight - gridSize) / 2
+//
+//        val x = startX + col * (padSize + 16f) + 16f + padSize / 2
+//        val y = startY + row * (padSize + 16f) + 16f + padSize / 2
+//
+//        return PointF(x, y)
+//    }
+//
+//    private fun startGame() {
+//        isGameRunning = true
+//        viewModel.togglePause(false)
+//        // Reset components
+//        audioClock.reset()
+//        noteSpawner.reset()
+//        inputJudge.reset()
+//        feedbackOverlay.reset()
+//
+//        // Start music
+//        audioClock.start()
+//        musicPlayer.play()
+//
+//        // Start game loop
+//        startGameLoop()
+//        startRenderLoop()
+//    }
+//
+//    private fun startGameLoop() {
+//        gameLoop = object : Runnable {
+//            override fun run() {
+//                if (!isGameRunning) return
+//
+//                // 1. Update note spawner
+//                noteSpawner.update(inputJudge.onJudge, gameView, { inputJudge.breakCombo() })
+//
+//                // 2. Check for missed notes
+//                inputJudge.checkNotes(gameView)
+//
+//                // 3. Update game view
+//                gameView.update()
+//
+//                // không cần gọi update() riêng
+//
+//                // Loop at 60 FPS
+//                gameView.postDelayed(this, 16)
+//            }
+//        }
+//
+//        gameView.post(gameLoop!!)
+//    }
+//
+//    private fun startRenderLoop() {
+//        renderLoop = object : Runnable {
+//            override fun run() {
+//                gameView.invalidate()
+//                feedbackOverlay.invalidate()
+//                gameView.postDelayed(this, 16)
+//            }
+//        }
+//        gameView.post(renderLoop!!)
+//    }
+//
+//    private fun pauseGame() {
+//        isGameRunning = false
+//        viewModel.togglePause(true)
+//        musicPlayer.pause()
+////        audioClock.pause()
+//        gameLoop?.let { gameView.removeCallbacks(it) }
+//        renderLoop?.let { gameView.removeCallbacks(it) }
+//    }
+//
+//    private fun resumeGame() {
+//        isGameRunning = true
+//        viewModel.togglePause(false)
+//        musicPlayer.play()
+////        audioClock.resume()
+//        startGameLoop()
+//        startRenderLoop()
+//
+//    }
+//
+//    override fun onPause() {
+//        super.onPause()
+//        pauseGame()
+//    }
+//
+//    override fun onResume() {
+//        super.onResume()
+//        if (isGameRunning) {
+//            resumeGame()
+//        }
+//    }
+//
+//    override fun onDestroy() {
+//        super.onDestroy()
+//        isGameRunning = false
+//        gameLoop?.let { gameView.removeCallbacks(it) }
+//        renderLoop?.let { gameView.removeCallbacks(it) }
+//        musicPlayer.release()
+//        soundEffects.release()
+//    }
+//}
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var drumPadsView: DrumPadsView
+    private var recordedSequence: List<RecordedNote>? = null
     private lateinit var viewModel: MainViewModel
 
-    private lateinit var musicPlayer: MusicPlayer
-    private lateinit var soundEffects: SoundEffectPool
-    private lateinit var audioClock: AudioSyncClock
-    private lateinit var noteSpawner: NoteSpawner
-    private lateinit var inputJudge: InputJudge
-    private lateinit var gameView: RhythmGameView
-    private lateinit var feedbackOverlay: FeedbackOverlay
-
-    private lateinit var scoreText: TextView
-    private lateinit var comboText: TextView
-
-    private var gameLoop: Runnable? = null
-    private var renderLoop: Runnable? = null
-
-    private var isGameRunning = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-        gameView = RhythmGameView(viewModel, this)
-        feedbackOverlay = FeedbackOverlay(viewModel, this)
-        binding.gameView.addView(gameView)
-        binding.gameView.addView(feedbackOverlay)
-
-        scoreText = TextView(this).apply {
-            textSize = 24f
-            setTextColor(android.graphics.Color.WHITE)
-            x = 50f
-            y = 50f
+        val layout = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            layoutParams = ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+            )
         }
 
-        comboText = TextView(this).apply {
-            textSize = 20f
-            setTextColor(android.graphics.Color.WHITE)
-            x = 50f
-            y = 120f
+        // Drum pads view
+        drumPadsView = DrumPadsView(viewModel,this).apply {
+            layoutParams = LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                0,
+                1f
+            )
+
+            // Assign sounds (you need to add these sound files to res/raw/)
+            assignSound(0, R.raw.drum_2, "Drum")
+            assignSound(1, R.raw.drum_1, "Drum")
+            assignSound(5, R.raw.drum_3, "drum")
+            assignSound(6, R.raw.drum_4, "drum")
+            assignSound(2, R.raw.melody_2, "Melody")
+            assignSound(3, R.raw.melody_3, "Melody")
+            assignSound(4, R.raw.melody_1, "Melody")
+            assignSound(7, R.raw.melody_4, "Melody")
+
+
+            // ... assign more sounds
         }
 
-        binding.gameView.addView(scoreText)
-        binding.gameView.addView(comboText)
-
-        // Initialize game components
-        initializeGame()
-
-        // Start game
-        startGame()
-
-        viewModel.setPerfect { x, y, color1, color2, color3 ->
-            gameView.handlePerfect(x, y, color1, color2, color3)
-        }
-        viewModel.bgPerfect.observe(this){value ->
-            if (!value) gameView.resetBackground()
+        // Control buttons
+        val buttonLayout = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            setPadding(16, 16, 16, 16)
         }
 
-        binding.btnBack.setOnClickListener {
-            if (isGameRunning) {
-                pauseGame()
-            } else {
-                resumeGame()
-            }
-        }
-    }
-
-    private fun initializeGame() {
-        // 1. Initialize core components
-        musicPlayer = MusicPlayer(this)
-        soundEffects = SoundEffectPool(this)
-        audioClock = AudioSyncClock(musicPlayer)
-        noteSpawner = NoteSpawner(audioClock)
-        inputJudge = InputJudge(audioClock, noteSpawner, soundEffects)
-
-        musicPlayer.setPlaybackStateListener { state ->
-            when (state){
-                true -> {
-
-                }
-                false -> {
-                    Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show()
-                }
+        val recordButton = Button(this).apply {
+            text = "Record"
+            setOnClickListener {
+                drumPadsView.startRecording()
+                text = "Recording..."
             }
         }
 
-        // 2. Load sound effects
-        // soundEffects.loadSound(SoundEffectPool.SoundType.PERFECT_HIT, R.raw.perfect)
-        // soundEffects.loadSound(SoundEffectPool.SoundType.GOOD_HIT, R.raw.good)
-        // soundEffects.loadSound(SoundEffectPool.SoundType.MISS, R.raw.miss)
-
-        // 3. Load notes từ JSON
-        val json = assets.open("gamedata.json").bufferedReader().use { it.readText() }
-        noteSpawner.loadNotesFromJson(json)
-        gameView.setNoteSpawner(noteSpawner)
-        gameView.setAudioClock(audioClock)
-
-        // 4. Load music
-        musicPlayer.loadMusic("android.resource://${packageName}/${R.raw.song}")
-
-        // 5. Setup InputJudge callbacks
-        setupInputJudgeCallbacks()
-
-        // 6. Setup GameView callbacks
-        setupGameViewCallbacks()
-    }
-
-    private fun setupInputJudgeCallbacks() {
-        // Callback khi có judgment (Perfect/Good/Miss)
-        inputJudge.onJudge = { feedback ->
-            val padPosition = getPadPosition(feedback.padId)
-
-            feedbackOverlay.showFeedback(feedback.result, padPosition)
-        }
-
-        inputJudge.onComboChange = { combo ->
-            runOnUiThread {
-                comboText.text = "Combo: $combo"
-                feedbackOverlay.updateCombo(combo)
+        val stopButton = Button(this).apply {
+            text = "Stop"
+            setOnClickListener {
+                recordedSequence = drumPadsView.stopRecording()
+                recordButton.text = "Record"
             }
         }
 
-        inputJudge.onScoreChange = { score ->
-            runOnUiThread {
-                scoreText.text = "Score: $score"
-            }
-        }
-    }
-
-    private fun setupGameViewCallbacks() {
-        // Khi pad được nhấn
-        gameView.onPadPressed = { padId ->
-            val result = inputJudge.onPadPressed(
-                padId,
-                { gameView.triggerHitEffect(padId) },
-                { gameView.triggerMissEffect(padId) })
-            // InputJudge sẽ tự động gọi callback onJudge
-            // callback đó sẽ gọi feedbackOverlay.showFeedback()
-        }
-
-        // Khi pad được nhả (cho hold notes)
-        gameView.onPadReleased = { padId ->
-            inputJudge.onPadReleased(
-                padId, { gameView.triggerMissEffect(padId) },
-                { gameView.completeHoldNote(padId) })
-        }
-    }
-
-    private fun getPadPosition(padId: Int): PointF {
-        // Tính toán vị trí của pad dựa trên ID (1-9)
-        val screenWidth = gameView.width
-        val screenHeight = gameView.height
-
-        val row = (padId - 1) / 3
-        val col = (padId - 1) % 3
-
-        val gridSize = kotlin.math.min(screenWidth, screenHeight) * 0.8f
-        val padSize = (gridSize - 16f * 4) / 3
-        val startX = (screenWidth - gridSize) / 2
-        val startY = (screenHeight - gridSize) / 2
-
-        val x = startX + col * (padSize + 16f) + 16f + padSize / 2
-        val y = startY + row * (padSize + 16f) + 16f + padSize / 2
-
-        return PointF(x, y)
-    }
-
-    private fun startGame() {
-        isGameRunning = true
-        viewModel.togglePause(false)
-        // Reset components
-        audioClock.reset()
-        noteSpawner.reset()
-        inputJudge.reset()
-        feedbackOverlay.reset()
-
-        // Start music
-        audioClock.start()
-        musicPlayer.play()
-
-        // Start game loop
-        startGameLoop()
-        startRenderLoop()
-    }
-
-    private fun startGameLoop() {
-        gameLoop = object : Runnable {
-            override fun run() {
-                if (!isGameRunning) return
-
-                // 1. Update note spawner
-                noteSpawner.update(inputJudge.onJudge, gameView, { inputJudge.breakCombo() })
-
-                // 2. Check for missed notes
-                inputJudge.checkNotes(gameView)
-
-                // 3. Update game view
-                gameView.update()
-
-                // không cần gọi update() riêng
-
-                // Loop at 60 FPS
-                gameView.postDelayed(this, 16)
+        val playButton = Button(this).apply {
+            text = "Play"
+            setOnClickListener {
+                recordedSequence?.let { drumPadsView.playRecording(it) }
             }
         }
 
-        gameView.post(gameLoop!!)
-    }
+        buttonLayout.addView(recordButton)
+        buttonLayout.addView(stopButton)
+        buttonLayout.addView(playButton)
 
-    private fun startRenderLoop() {
-        renderLoop = object : Runnable {
-            override fun run() {
-                gameView.invalidate()
-                feedbackOverlay.invalidate()
-                gameView.postDelayed(this, 16)
-            }
-        }
-        gameView.post(renderLoop!!)
-    }
+        layout.addView(drumPadsView)
+        layout.addView(buttonLayout)
 
-    private fun pauseGame() {
-        isGameRunning = false
-        viewModel.togglePause(true)
-        musicPlayer.pause()
-//        audioClock.pause()
-        gameLoop?.let { gameView.removeCallbacks(it) }
-        renderLoop?.let { gameView.removeCallbacks(it) }
-    }
-
-    private fun resumeGame() {
-        isGameRunning = true
-        viewModel.togglePause(false)
-        musicPlayer.play()
-//        audioClock.resume()
-        startGameLoop()
-        startRenderLoop()
-
-    }
-
-    override fun onPause() {
-        super.onPause()
-        pauseGame()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        if (isGameRunning) {
-            resumeGame()
-        }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        isGameRunning = false
-        gameLoop?.let { gameView.removeCallbacks(it) }
-        renderLoop?.let { gameView.removeCallbacks(it) }
-        musicPlayer.release()
-        soundEffects.release()
+        setContentView(layout)
     }
 }

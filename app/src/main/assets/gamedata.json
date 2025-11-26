@@ -1,1073 +1,2792 @@
 ﻿[
   {
-    "time": 0.093,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "time": 0.279,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 0.673,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "time": 0.302,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 0.998,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 1.649,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 1.672,
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
     "time": 2.392,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 2.972,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 4.11,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 4.667,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 5.248,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 5.828,
-    "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 6.409,
     "pad_id": 3,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 6.966,
+    "time": 2.415,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 3.088,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 3.785,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 4.481,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 7.546,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "hold",
-    "hold_duration": 0.6
+    "time": 4.505,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 5.178,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 5.201,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 5.875,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 5.898,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 6.571,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 6.594,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 7.268,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 7.291,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 7.964,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 7.988,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
   },
   {
     "time": 8.684,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 9.265,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 9.845,
-    "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 10.96,
+    "time": 9.381,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 12.678,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 13.235,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 13.816,
+    "time": 10.077,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 14.396,
+    "time": 10.751,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 14.977,
+    "time": 11.471,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 11.494,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 12.167,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 12.19,
     "pad_id": 3,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 15.534,
+    "time": 12.864,
     "pad_id": 4,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 16.672,
-    "pad_id": 1,
-    "pad_name": "HIHAT",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 17.229,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 17.81,
+    "time": 13.537,
     "pad_id": 2,
-    "pad_name": "BASS",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 18.367,
+    "time": 13.56,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 14.234,
     "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 19.505,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 20.666,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 21.804,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 22.384,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 23.522,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 24.079,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 24.66,
-    "pad_id": 1,
-    "pad_name": "FX",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 25.24,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 26.378,
+    "time": 14.257,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 14.954,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 15.65,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 15.673,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 16.347,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 16.37,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 17.02,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 17.043,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 17.74,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 17.763,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 18.437,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 18.46,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 19.133,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 19.156,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 19.83,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 19.853,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 20.201,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 20.55,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 20.875,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 21.223,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 21.246,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 21.595,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 21.92,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 21.943,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 22.175,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 22.314,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 22.57,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 22.639,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 22.988,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 23.313,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 23.336,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 23.684,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.009,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.033,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.381,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.706,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.729,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 24.985,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 25.333,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 25.449,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 25.774,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 26.122,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 26.146,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 26.471,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 26.819,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 26.842,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 27.191,
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
     "time": 27.516,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 28.096,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 28.653,
-    "pad_id": 2,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 29.814,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 30.372,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 32.09,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 33.228,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 34.389,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 34.946,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 35.503,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 36.084,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 36.664,
-    "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 37.245,
-    "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 38.383,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 38.94,
+    "time": 27.864,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 28.212,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 28.235,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 28.561,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 28.909,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 28.932,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 29.257,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 29.605,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 29.629,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 29.954,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 30.302,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 30.325,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 30.581,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 30.906,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 31.022,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 31.347,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 31.695,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 31.718,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 32.044,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 32.392,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 32.415,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 32.763,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 33.088,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 33.112,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 33.437,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 33.785,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 33.808,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 34.157,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 34.482,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 34.853,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 35.178,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 35.201,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 35.527,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 35.875,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 35.898,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 36.153,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 36.525,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 36.595,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 36.943,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 37.268,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 37.291,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 37.616,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 37.988,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 38.336,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 38.684,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 39.033,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 39.381,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 39.729,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 40.054,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 40.078,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 40.658,
-    "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 41.239,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 42.957,
+    "time": 40.449,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 40.774,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 40.797,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 43.514,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 44.095,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 45.232,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 45.813,
-    "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 46.37,
-    "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 46.928,
+    "time": 41.123,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 47.531,
+    "time": 41.471,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 41.494,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 41.749,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 42.098,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 42.191,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 42.516,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 42.841,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 42.864,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 43.212,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 43.561,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 43.932,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 44.257,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 44.28,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 44.606,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 44.931,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 44.954,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 45.302,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 45.627,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 45.65,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 45.999,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 46.324,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 46.347,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 46.695,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 47.044,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 47.067,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 47.322,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 47.671,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 47.74,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 48.089,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 48.669,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
+    "time": 48.437,
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 49.226,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
+    "time": 48.46,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 49.807,
+    "time": 48.785,
     "pad_id": 1,
-    "pad_name": "PERC",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 50.387,
+    "time": 49.133,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 50.945,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "time": 49.157,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 52.106,
+    "time": 49.482,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 49.83,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 49.853,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 50.202,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 50.527,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 50.55,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 50.875,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 51.223,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 51.246,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 51.595,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 51.943,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 52.291,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 52.616,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 52.663,
+    "time": 52.64,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 52.918,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 53.801,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
+    "time": 53.243,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 53.359,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 53.685,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 54.033,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 54.056,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 54.381,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 54.938,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "time": 54.706,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 55.519,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "time": 54.729,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 55.078,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 55.403,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 55.426,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 55.774,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 56.099,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 56.68,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 57.237,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 57.818,
     "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 58.398,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
+    "time": 56.123,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 59.513,
+    "time": 56.494,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 56.819,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 56.842,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 57.168,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 57.516,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 57.539,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 60.093,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "time": 57.864,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 58.189,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 58.212,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 58.468,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 58.839,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 58.909,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 59.257,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 59.582,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 59.606,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 59.954,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 60.302,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 60.325,
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
     "time": 60.674,
-    "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 61.254,
-    "pad_id": 3,
-    "pad_name": "SNARE",
-    "type": "click",
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 61.812,
+    "time": 60.999,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 61.022,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 61.347,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 61.695,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 61.719,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 62.044,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 62.369,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 62.392,
-    "pad_id": 4,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 62.973,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 63.53,
     "pad_id": 2,
-    "pad_name": "CRASH",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 64.087,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 64.668,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 65.248,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 65.829,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 66.386,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 66.966,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 68.104,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 68.661,
-    "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 69.242,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 69.822,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 70.403,
-    "pad_id": 1,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 70.96,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 71.541,
+    "time": 62.74,
     "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 72.098,
-    "pad_id": 4,
-    "pad_name": "HIHAT",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 72.678,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 73.236,
+    "time": 63.089,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 73.816,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
+    "time": 63.46,
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 74.374,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 74.931,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 75.511,
+    "time": 63.785,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 76.092,
+    "time": 63.808,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 76.649,
-    "pad_id": 3,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 77.23,
+    "time": 64.064,
     "pad_id": 4,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 79.528,
+    "time": 64.18,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 64.412,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 64.435,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 64.853,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 65.178,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 65.202,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 65.55,
     "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 80.666,
+    "time": 65.875,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 65.898,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 66.247,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 66.572,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 66.595,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 66.943,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 67.291,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 67.361,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 67.64,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 67.988,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 68.336,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 68.406,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 68.685,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 68.754,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 69.033,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 69.381,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 69.404,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 69.73,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.055,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.078,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.147,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.426,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.751,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 70.774,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 71.123,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 71.471,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 71.494,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 71.564,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 71.819,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.168,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.191,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.516,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.586,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.864,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 72.887,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 73.213,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 73.561,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 73.584,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 73.909,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 74.257,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 74.327,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 74.606,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 74.954,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 74.977,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 75.302,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 75.651,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 75.674,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 75.743,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 76.022,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 76.347,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 76.37,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 76.719,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.044,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.067,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.137,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.392,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.74,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 77.764,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 78.089,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 78.158,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 78.414,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 78.437,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 78.785,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 79.157,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 79.482,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 79.83,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 80.179,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 80.527,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 80.55,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 80.805,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 80.898,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 81.154,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
     "time": 81.223,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 81.247,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 81.572,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 81.92,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 81.943,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 82.268,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 82.617,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 82.64,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 82.965,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 83.313,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 83.336,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 83.661,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 84.01,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 81.804,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "hold",
-    "hold_duration": 0.6
+    "time": 84.033,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
   },
   {
-    "time": 82.384,
+    "time": 84.381,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 82.942,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 84.103,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 84.66,
+    "time": 84.706,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 85.24,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "hold",
-    "hold_duration": 0.6
+    "time": 84.73,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
   },
   {
-    "time": 85.798,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "time": 85.078,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 85.403,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 85.426,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 85.775,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 86.1,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 86.123,
+    "pad_id": 1,
+    "type": "kick",
     "hold_duration": 0
   },
   {
     "time": 86.378,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 86.959,
+    "time": 86.471,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 86.727,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 86.819,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 86.843,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 87.168,
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
     "time": 87.516,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 88.073,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 89.234,
+    "time": 87.864,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 88.213,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 88.236,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 88.561,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 89.815,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 90.372,
-    "pad_id": 8,
-    "pad_name": "PERC",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 90.953,
+    "time": 88.909,
     "pad_id": 1,
-    "pad_name": "PERC",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 92.09,
-    "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
     "hold_duration": 0
   },
   {
-    "time": 92.648,
+    "time": 88.932,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 89.258,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 89.606,
     "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 93.228,
+    "time": 89.954,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 90.302,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 90.326,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 90.674,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 90.999,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 91.022,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 91.347,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 91.696,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 91.951,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 92.067,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 92.299,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 92.392,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 92.74,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 93.089,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 93.112,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 93.437,
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
     "time": 93.809,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 93.901,
     "pad_id": 4,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 94.389,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "time": 94.134,
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 94.946,
-    "pad_id": 7,
-    "pad_name": "MELODY",
-    "type": "click",
+    "time": 94.482,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 94.83,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 95.179,
+    "pad_id": 4,
+    "type": "crash",
     "hold_duration": 0
   },
   {
     "time": 95.527,
     "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 96.084,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 97.222,
+    "time": 95.898,
     "pad_id": 2,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 97.802,
+    "time": 96.247,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 96.572,
     "pad_id": 3,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 98.383,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 98.94,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 99.521,
-    "pad_id": 6,
-    "pad_name": "BASS",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 100.101,
-    "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 100.659,
-    "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "hold",
-    "hold_duration": 0.6
-  },
-  {
-    "time": 101.796,
+    "time": 96.92,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 102.377,
+    "time": 97.292,
     "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 102.957,
+    "time": 97.524,
     "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 97.663,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 97.895,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 97.988,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 98.337,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 98.662,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 98.685,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 99.01,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 99.358,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 99.381,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 99.73,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 100.078,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 100.426,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 100.751,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 100.775,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 101.123,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 101.448,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 101.471,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 101.82,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 102.168,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 102.516,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 102.841,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 102.864,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 103.12,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 103.491,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
     "time": 103.515,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
+    "pad_id": 2,
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 104.676,
+    "time": 103.909,
     "pad_id": 3,
-    "pad_name": "HIHAT",
-    "type": "click",
+    "type": "hihat",
     "hold_duration": 0
   },
   {
-    "time": 105.233,
+    "time": 104.258,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 104.629,
     "pad_id": 1,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 104.954,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 104.977,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 105.302,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 105.651,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 105.674,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 105.999,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 106.347,
+    "pad_id": 3,
+    "type": "hihat",
     "hold_duration": 0
   },
   {
     "time": 106.371,
-    "pad_id": 9,
-    "pad_name": "FX",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 106.951,
     "pad_id": 2,
-    "pad_name": "KICK",
-    "type": "click",
+    "type": "snare",
     "hold_duration": 0
   },
   {
-    "time": 107.532,
-    "pad_id": 1,
-    "pad_name": "SNARE",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 108.089,
-    "pad_id": 3,
-    "pad_name": "KICK",
-    "type": "click",
-    "hold_duration": 0
-  },
-  {
-    "time": 108.646,
+    "time": 106.696,
     "pad_id": 4,
-    "pad_name": "TOM",
-    "type": "click",
+    "type": "crash",
     "hold_duration": 0
   },
   {
-    "time": 109.227,
-    "pad_id": 5,
-    "pad_name": "CRASH",
-    "type": "hold",
-    "hold_duration": 0.6
+    "time": 107.044,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 107.067,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 107.416,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 107.741,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 107.764,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 108.112,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 108.437,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 108.46,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 108.716,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 109.087,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 109.111,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 109.482,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 109.83,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 109.854,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 110.225,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 110.527,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 110.55,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 110.875,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 111.224,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 111.247,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 111.572,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 111.92,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 111.943,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 112.268,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 112.617,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 112.64,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 112.988,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 113.313,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 113.337,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 113.685,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 114.01,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 114.033,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 114.289,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 114.637,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 114.73,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 115.078,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 115.194,
+    "pad_id": 1,
+    "type": "kick",
+    "hold_duration": 0
+  },
+  {
+    "time": 115.426,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 115.775,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 116.123,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 116.448,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 116.843,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
+  },
+  {
+    "time": 117.168,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 117.539,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 117.864,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 118.213,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 118.561,
+    "pad_id": 3,
+    "type": "hihat",
+    "hold_duration": 0
+  },
+  {
+    "time": 118.933,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 119.234,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 119.606,
+    "pad_id": 4,
+    "type": "crash",
+    "hold_duration": 0
+  },
+  {
+    "time": 119.885,
+    "pad_id": 2,
+    "type": "snare",
+    "hold_duration": 0
   }
 ]
